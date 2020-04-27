@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.header-section .header-top {
+    background-color: #316DC3 !important;
+    overflow: hidden;
+}
+
+.header-section .header-top .inner-top {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header-section .header-top .col-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.header-section .header-top .col-3 ul {
+    list-style: none;
+}
+
+.header-section .header-top .col-3 ul li {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.header-section .header-top .col-3 ul li.donate-btn a {
+    background-color: #f5f5f5 !important;
+    font-size: 11px !important;
+    color: #427900;
+    padding: 5px 10px;
+    border: 1px solid #006618;
+}
+
+.header-section .header-top .col-3 ul li.donate-btn a:after {
+    content: none;
+}
+
+.header-section .header-top .col-3 .title-praragraph {
+    text-align: center;
+}
+
+.header-section .header-top .col-3.donate {
+    text-align: center;
+}
+
+.header-section .header-top .col-3 p {
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+
+.header-section .header-top .col-3 ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-section .header-top .col-3 a:after {
+    content: '|';
+    padding: 10px;
+}
+
+.header-section .header-top .col-3 ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.header-section .header-bottom {
+    background-color: #f7f8fa !important;
+    overflow: hidden;
+}
+
+.header-section .header-bottom .sub-bottom-header {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header-section .header-bottom .logo {
+    width: 30%;
+    float: left;
+}
+
+.header-section .header-bottom .logo img {
+    width: 50%;
+    display: block;
+}
+
+.header-section .header-bottom .logo a {
+    display: block;
+    padding: 35px 0;
+    cursor: pointer;
+    color: #fff
+}
+
+.header-section .header-bottom .topnav {
+    float: right;
+    width: 70%;
+    background: transparent;
+}
+
+.header-section .header-bottom .topnav ul li {
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+}
+
+.header-section .header-bottom .topnav ul li a {
+    display: block;
+    color: #316DC3;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-section .header-bottom .topnav ul li a:hover {
+    background: #8dc63f;
+    color: #fff;
+}
+
+.content-section .slider .col-1 img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.content-section .about-section {
+    max-width: 1140px;
+    margin: 40px auto;
+}
+
+.content-section .about-section .about-us-heading h2 {
+    color: #316DC3;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.content-section .about-section .about-us-heading span.duction {
+    color: #427900;
+}
+
+.content-section .title-icon {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 160px;
+    position: relative;
+}
+
+.content-section .title-icon::before {
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 36px;
+    background: #F26522;
+    background: #427900;
+}
+
+.title-icon::after {
+    content: "";
+    height: 2px;
+    left: 10px;
+    position: absolute;
+    top: 30px;
+    width: 36px;
+    background: #F26522;
+    background: #427900;
+}
+
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.content-section .main-achievement {
+    background-color: #2655e8 !important;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.content-section .main-achievement .our-achievement {
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content-section .our-achievement .col-4 {
+    width: 24%;
+    float: left;
+    text-align: center;
+    margin: 5px;
+}
+
+.content-section .our-achievement .col-4 img {
+    height: 40px;
+}
+
+.content-section .our-achievement .col-4 h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 1rem 0;
+    color: #fff;
+}
+
+.content-section .our-achievement .col-4 h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #fff !important;
+}
+
+.content-section .our-achievement .col-4 h5 span.monthly {
+    color: #00ff00 !important;
+}
+
+.content-section .main-what-we-do {
+    background-color: #f7f8fa !important;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.content-section .inner-what-we-do {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px 0px 100px;
+}
+
+.content-section .inner-what-we-do .what-we-do-heading h2 {
+    color: #316DC3;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.content-section .inner-what-we-do .what-we-do-heading span.duction {
+    color: #427900;
+}
+
+.content-section .inner-what-we-do .col-3 {
+    float: left;
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    padding: 30px !important;
+    background-color: #fff !important;
+    width: 30%;
+    margin: 15px !important;
+    text-align: center;
+}
+
+.content-section .inner-what-we-do .col-3 h4 {
+    line-height: 1.42857143;
+    color: #316DC3;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.content-section .main-mission-upcomming-projects {
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content-section .main-mission-upcomming-projects .inner-mission {
+    width: 60%;
+    padding: 60px 0px;
+    float: left;
+}
+
+.content-section .main-mission-upcomming-projects .mission-heading h2 {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    color: #316DC3;
+}
+
+.line-bottom {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.line-bottom:after {
+    bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    background: #427900;
+}
+
+.content-section .main-mission-upcomming-projects .mission-btn {
+    padding: 15px !important;
+    margin: 0 20px 20px !important;
+    float: left;
+    width: 44%;
+    border: 1px solid #eeeeee !important;
+    background-color: #f7f8fa !important;
+}
+
+.content-section .main-mission-upcomming-projects .mission-btn a img {
+    float: left;
+    padding-right: 40px;
+}
+
+.content-section .main-mission-upcomming-projects .mission-btn h4 {
+    color: #316DC3;
+    display: inline-block;
+}
+
+.content-section .main-mission-upcomming-projects .inner-upcomming-projects {
+    width: 40%;
+    float: right;
+    padding: 60px 0px;
+}
+
+.content-section .main-mission-upcomming-projects .inner-upcomming-projects h2.line-bottom {
+    border-bottom: 1px solid #eeeeee !important;
+    text-transform: uppercase;
+}
+
+.content-section .main-mission-upcomming-projects .inner-upcomming-projects p {
+    margin-bottom: 10px;
+    color: #808080;
+}
+
+.content-section .image-gallery {
+    padding: 60px 0px;
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content-section .image-gallery .images-heading h2 {
+    text-align: center;
+    color: #316DC3;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.content-section .image-gallery .images-heading span.duction {
+    color: #427900;
+}
+
+.content-section .image-gallery .image-grid .col-5 {
+    float: left;
+    width: 20%;
+    margin-top: 30px;
+}
+
+.content-section .image-gallery .image-grid .col-5:hover {
+    border: 8px solid #eeeeee;
+    opacity: 0.9;
+}
+
+.content-section .image-gallery .image-grid .col-5 img {
+    width: 99%;
+}
+
+.footer {
+    background-color: rgb(37, 39, 46) !important;
+    padding: 50px 0px;
+    overflow: hidden;
+}
+
+.footer .inner-footer {
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer .inner-footer .col-3 ul.list-inline {
+    width: 33.33%;
+    float: left;
+}
+
+.footer .inner-footer .col-3 h3 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.footer .inner-footer .col-3 ul li {
+    color: #666666;
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer .inner-footer .col-3 p {
+    color: #666666;
+}
+
+.footer .inner-footer .col-3 ul li .fa {
+    padding-right: 10px;
+    color: #666666;
+    list-style: none;
+}
+
+.footer .inner-footer .col-3 ul.list-inline.right li {
+    display: inline-block;
+    height: 60px;
+    line-height: 40px;
+    padding: 15px 20px;
+    background-color: #316DC3;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+}
+
+.footer .inner-footer .col-3 ul.list-inline.right li a .fa {
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+}
+
+.footer .inner-footer .col-3 ul li a {
+    color: #666666;
+}
+
+.footer-bottom {
+    background-color: #316dd9;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    clear: both;
+}
+
+.footer-bottom p {
+    text-align: center;
+}
+
